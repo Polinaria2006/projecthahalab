@@ -1,0 +1,580 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    cursor: url(../img/cursor.png) 0 0, auto;
+  }
+
+  /* главная */
+  /* блок 1 */
+  .block1 {
+    width: 100%;
+    height: 53vw;
+    background-color: rgb(255, 255, 255);
+
+  }
+
+  .header {
+    width: 100%;
+    height: 4vw;
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 1fr repeat(5, auto) 1fr;
+    gap: 7vw; 
+    align-items: center;
+    margin-top: 3%;
+    position: absolute;
+  }
+
+  a {
+    font-family: "font-light";
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+    cursor: url(../img/cursor.png) 0 0, auto;
+
+  }
+
+  .main_link {
+    font-family: "font-higlight";
+    text-decoration: none;
+    color: #EAD715;
+    font-size: 3.5vw;
+
+  }
+
+  .main_banner {
+    height: 53vw;
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../img/main_banner.png");
+
+  }
+
+  .logo {
+    font-family: "font-higlight";
+    text-decoration: none;
+    color: #000000;
+    font-size: 10vw;
+    text-align: center;
+    padding-top: 25%;
+ 
+
+  }
+
+  /* <!-- бегущая строка --> */
+  .run_line_container {
+    width: 100%;
+    height: 4vw;
+    overflow: hidden;
+    background: black;
+    border-top: 0.1vw solid black;
+    border-bottom: 0.1vw solid black;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .run_line_track {
+    display: flex;
+    animation: scroll 6s linear infinite;
+    margin-left: 16%;
+  }
+  
+  .run_line {
+    white-space: nowrap;
+    font-family: "font-thin", sans-serif;
+    font-size: 3vw;
+    color: #EAD715;
+    padding-right: 5vw;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* блок 2 */
+  .block2 {
+    width: 100%;
+    height: 53vw;
+    background-color: #ECEDCD;
+    overflow: hidden;
+  }
+  
+  .block2_pic1 {
+    width: 100%;
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("../img/block2_pic1.png");
+    transition: background-image 0.3s ease;
+  }
+
+  /* подвал */
+  .basement {
+    width: 100%;
+    height: 30vw;
+    background-color: #000000;
+
+  }
+
+  .name {
+    font-family: "font-bold";
+    text-decoration: none;
+    color: #EAD715;
+    font-size: 3vw;
+   padding-top: 10%;
+    margin-left: 10%;
+
+  }
+
+  .logo_2 {
+    font-family: "font-higlight";
+    text-decoration: none;
+    color: #EAD715;
+    font-size: 10vw;
+    text-align: center;
+    margin-top: -8%;
+    margin-left: 50%;
+
+  }
+
+
+
+/* о проекте */
+/* блок 1 */
+body.other a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+
+.block_about_1 {
+    width: 100%;
+    height: 53vw;
+    background-color: rgb(0, 0, 0);
+
+  }
+
+  .header_2 {
+    width: 100%;
+    height: 4vw;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 1fr repeat(5, auto) 1fr;
+    gap: 7vw; 
+    align-items: center;
+    margin-top: 3%;
+    position: absolute;
+  }
+
+  .main_link2 {
+    font-family: "font-higlight";
+    text-decoration: none;
+    color: #000000;
+    font-size: 3.5vw;
+
+  }
+
+  .about {
+    height: 20vw;
+    width: 30vw;
+    padding-top: 30%;
+    margin-left: 5%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../img/About.png");
+
+  }
+
+  .describe_about {
+    font-family: "font-light";
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5vw;
+    margin-left: 6%;
+    margin-top: -15%;
+    width: 35%;
+    position: relative;
+
+  }
+
+  /* блок 2 с изображением */
+  .block_about_2 {
+    width: 100%;
+    height: 53vw;
+    background-color: #ECEDCD;
+    overflow: hidden;
+  }
+
+  .pic1 {
+    height: 50vw;
+    width: 70vw;
+    padding-top: 3%;
+    margin-left: 15%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../img/pic_1.png");
+
+  }
+  
+  .back_for_text {
+    height: 40vw;
+    width: 30vw;
+    padding-top: 6%;
+    margin-left: 50%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../img/back_1.png");
+
+  }
+
+  .about_text {
+    font-family: "font-light";
+    text-decoration: none;
+    text-align: right;
+    color: #000000;
+    font-size: 1.5vw;
+    margin-left: 8%;
+    margin-top: 10%;
+    width: 80%;
+    position: relative;
+
+  }
+
+  /* афиша */
+  /* блок 1 */
+  .block_event_1 {
+    width: 100%;
+    height: 1vw;
+    background-color: rgb(255, 255, 255);
+
+  }
+
+  .event_text {
+    width: 100%;
+    height: 10vw;
+    background-color: #000000;
+    margin-top: 10vw;
+    z-index: 2;
+    position: relative;
+  }
+
+  h1 {
+    font-family: "font-higlight";
+    text-decoration: none;
+    color: #EAD715;
+    font-size: 10vw;
+    text-align: center;
+
+  }
+
+  /* линия постеров */
+  .posters {
+    display: grid;
+    grid-template-columns: repeat(3, 20vw);
+    gap: 5vw;
+    justify-content: center;
+    margin: 5vw auto;
+  }
+  
+  .poster {
+    width: 20vw;
+    height: 30vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .poster-1 { background-image: url("../img/poster_1.png"); }
+  .poster-2 { background-image: url("../img/poster_2.png"); }
+  .poster-3 { background-image: url("../img/poster_3.png"); }
+  .poster-4 { background-image: url("../img/poster_4.png"); }
+  .poster-5 { background-image: url("../img/poster_5.png"); }
+  .poster-6 { background-image: url("../img/poster_6.png"); }
+  .poster-7 { background-image: url("../img/poster_7.png"); }
+  .poster-8 { background-image: url("../img/poster_8.png"); }
+  .poster-9 { background-image: url("../img/poster_9.png"); }
+  .poster-10 { background-image: url("../img/poster_10.png"); }
+  .poster-11 { background-image: url("../img/poster_11.png"); }
+  .poster-12 { background-image: url("../img/poster_12.png"); }
+  .poster-13 { background-image: url("../img/poster_13.png"); }
+  .poster-14 { background-image: url("../img/poster_14.png"); }
+  .poster-15 { background-image: url("../img/poster_15.png"); }
+  
+  .poster-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .modal-content {
+    width: 28vw;
+    height: 78vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 5px solid white;
+    box-shadow: 0 0 20px white;
+    animation: zoomIn 0.3s ease;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes zoomIn {
+    from { transform: scale(0.6); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+  }
+
+  /* магазин */
+  /* блок 1 */
+  .shop {
+    height: 20vw;
+    width: 30vw;
+    padding-top: 30%;
+    margin-left: 5%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../img/Shop.png");
+
+  }
+
+  /* бегущая строка второй вариант */
+  .run_line_container2 {
+    width: 100%;
+    height: 4vw;
+    overflow: hidden;
+    background: #E8A8EE;
+    border-top: 0.1vw solid #E8A8EE;
+    border-bottom: 0.1vw solid #E8A8EE;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .run_line_track2 {
+    display: flex;
+    animation: scroll 6s linear infinite;
+    margin-left: 16%;
+  }
+  
+  .run_line2 {
+    white-space: nowrap;
+    font-family: "font-thin", sans-serif;
+    font-size: 3vw;
+    color: black;
+    padding-right: 5vw;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* блок товаров */
+  .shop_block2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5vw;
+    justify-content: center;
+    margin: 5vw auto;
+    height: 40vw;
+    width: 100%;
+  }
+  
+  .picture1,
+  .picture2,
+  .picture3,
+  .picture4 {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: transform 0.4s ease;
+    cursor: url(../img/cursor.png) 0 0, auto;
+  }
+  
+  .picture1:hover,
+  .picture2:hover,
+  .picture3:hover,
+  .picture4:hover {
+    transform: scale(1.05);
+  }
+  
+  .picture1 {
+    background-image: url("../img/pic_2.png");
+  }
+  
+  .picture2 {
+    width: 40vw;
+    background-image: url("../img/pic_3.png");
+    border: 0.1vw solid rgb(0, 0, 0);
+  }
+  
+  .picture3 {
+    background-image: url("../img/pic_4.png");
+  }
+  
+  .picture4 {
+    width: 40vw;
+    background-image: url("../img/pic_5.png");
+    border: 0.1vw solid rgb(0, 0, 0);
+  }
+
+  /* профиль */
+  /* блок 1 */
+  .profile {
+    height: 20vw;
+    width: 30vw;
+    padding-top: 30%;
+    margin-left: 5%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../img/Profile.png");
+
+  }
+/* форма 1 */
+  .profile_block2 {
+    display: grid;
+    justify-content: center;   
+    align-items: center;     
+    height: 50vw;
+    width: 100%;
+    background-color: #ECEDCD;
+  }
+  
+  .border {
+    width: 60vw;
+    height: 40vw;
+    border: 0.15vw solid rgb(0, 0, 0);
+  }
+
+  .name_of {
+    font-family: "font-bold";
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 5vw;
+    margin-top: 5%;
+    margin-left: 5%;
+
+  }
+
+  .add-products-btn {
+    display: block;
+    margin-top: 30%;
+    margin-left: 5%;
+    padding: 1vw 3vw;
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+    border: none;
+    cursor: url(../img/cursor.png) 0 0, auto;
+    border-radius: 0.5vw;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .add-products-btn:hover {
+    background-color: #222;
+    transform: scale(1.05);
+  }
+
+  /* форма 2 */
+  .form_inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 53%; 
+    margin-top: 6%;
+    gap: 2vw;
+  }
+  
+  .form_inputs input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.10vw solid black;
+    outline: none;
+    font-size: 1.2vw;
+    width: 25vw;
+    font-family: "font-light";
+    color: black;
+    padding: 0.5vw 0;
+  }
+  
+  .order-btn {
+    margin-top: 3vw;
+    margin-left: 50%;
+    padding: 1vw 3vw;
+    background-color: black;
+    color: white;
+    font-size: 1.2vw;
+    border: none;
+    cursor: url(../img/cursor.png) 0 0, auto;
+    border-radius: 0.5vw;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .order-btn:hover {
+    background-color: #222;
+    transform: scale(1.05);
+  }
+
+  /* блок спасибо */
+  .text_p {
+    font-family: "font-higlight";
+    text-decoration: none;
+    color: #000000;
+    font-size: 18vw;
+    text-align: center;
+  }
+
+  /* страница 404 */
+  .not_found {
+    background-color: #000000;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; 
+  }
+
+  .pic_notfound {
+    height: 40vw;
+    width: 50vw;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("../img/404.png");
+
+  }
+
+  
+
+
+  
+

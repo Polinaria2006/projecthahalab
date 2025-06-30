@@ -1,0 +1,285 @@
+@media screen and (max-width: 414px) {
+   /* Главная */
+  /* Блок 1 */
+    .block1 {
+      height: 210vw;
+    }
+  
+    .header {
+      height: 20vw;
+      grid-template-columns: 1fr repeat(5, auto) 1fr;
+      gap: 5vw;
+    }
+  
+    a {
+      font-size: 5vw;
+    }
+  
+    .main_link {
+      font-size: 8vw;
+    }
+  
+    .main_banner {
+      height: 210vw;
+      background-size: cover;
+    }
+  
+    .logo {
+      font-size: 25vw;
+      padding-top: 100%;
+    }
+  
+    /* Бегущая строка */
+    .run_line_container {
+      height: 7vw;
+    }
+  
+    .run_line {
+      font-size: 4vw;
+    }
+  
+    /* Подвал */
+    .basement {
+      height: 80vw;
+    }
+  
+    .name {
+      font-size: 7vw;
+      padding-top: 15%;
+      margin-left: 20%;
+    }
+  
+    .logo_2 {
+      font-size: 20vw;
+      margin-top: 10%;
+      margin-left: 0%;
+      text-align: center;
+    }
+
+  /* вариант 2 */
+    /* Блок 1 */
+    .block_about_1 {
+      height: 210vw;
+    }
+  
+    .header_2 {
+      height: 20vw;
+      grid-template-columns: 1fr repeat(5, auto) 1fr;
+      gap: 5vw;
+    }
+  
+    body.other a {
+        font-size: 5vw;
+      }
+  
+    .main_link2 {
+      font-size: 8vw;
+    }
+
+    .about {
+        height: 70vw;
+        width: 90vw;
+        padding-top: 150%;
+        margin-left: 5%;
+    
+      }
+    
+    .describe_about {
+        font-size: 4.8vw;
+        margin-left: 7%;
+        margin-top: -90%;
+        width: 90%;
+      }
+
+/* станица about */
+/* блок 2 с изображением */
+  .block_about_2 {
+    height: 100vw;
+  }
+
+  .pic1 {
+    height: 80vw;
+    width: 90vw;
+    padding-top: 15%;
+    margin-left: 5%;
+
+  }
+  
+  .back_for_text {
+    height: 70vw;
+    width: 60vw;
+    padding-top: 6%;
+    margin-left: 30%;
+
+  }
+
+  .about_text {
+    font-size: 3.8vw;
+    margin-left: 0%;
+    margin-top: 10%;
+    width: 90%;
+
+  }
+
+/* афиша */
+/* блок 1 */
+  .event_text {
+    height: 50vw;
+    margin-top: 20vw;
+  }
+
+  h1 {
+    margin-left: -10%;
+    font-size: 40vw;
+
+  }
+
+  /* линия постеров */
+  .posters {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 10vw;
+    justify-items: center;
+    margin: 10vw auto;
+  }
+  
+  .poster {
+    width: 60vw; 
+    height: 85vw; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .modal-content {
+    width: 80vw;
+    height: 60vh;
+  }
+
+/* страница магазина */
+  .shop {
+    height: 70vw;
+    width: 90vw;
+    padding-top: 150%;
+    margin-left: 5%;
+
+  }
+
+  .run_line_container2 {
+    height: 7vw;
+  }
+
+  .run_line2 {
+    font-size: 4vw;
+  }
+
+  .shop_block2 {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 10vw;
+    justify-items: center; 
+    margin: 10vw auto;
+    width: 100%;
+    height: 80vh;
+    padding-bottom: 10%;
+  }
+  
+  .picture2 {
+    width: 86vw; 
+    height: 70vw;
+  
+  }
+
+  .picture4 {
+    width: 85vw; 
+    height: 61vw;
+  
+  }
+  
+  .picture1 {
+    width: 136vw; 
+    height: 105vw;
+  
+  }
+
+  .picture3 {
+    width: 136vw; 
+    height: 104vw;
+  
+  }
+
+ /* страница profile */
+  .profile {
+    height: 70vw;
+    width: 90vw;
+    padding-top: 150%;
+    margin-left: 5%;
+
+  }
+
+  .profile_block2 { 
+    height: 130vw;
+  }
+  
+  .border {
+    width: 80vw;
+    height: 110vw;
+    border: 0.30vw solid rgb(0, 0, 0);
+  }
+
+  .name_of {
+    font-size: 14vw;
+    margin-top: 8%;
+    margin-left: 8%;
+
+  }
+
+  .add-products-btn {
+    margin-top: 70%;
+    margin-left: 8%;
+    padding: 3vw 7vw;
+    font-size: 5vw;
+  }
+  
+
+  .form_inputs {
+    margin-left: 8%; 
+    margin-top: 16%;
+    gap: 5vw;
+  }
+  
+  .form_inputs input {
+    border-bottom: 0.20vw solid black;
+    font-size: 4vw;
+    width: 66vw;
+    padding: 0.8vw 0;
+  }
+  
+  .order-btn {
+    margin-top: 7vw;
+    margin-left: -1%;
+    padding: 4vw 8vw;
+    font-size: 5vw;
+    
+  }
+  
+
+  .text_p {
+    font-size: 20vw;
+    text-align: center;
+  }
+
+
+  .pic_notfound {
+    height: 60vw;
+    width: 80vw;
+
+  }
+
+
+  
+
+
+
+
+}

@@ -1,0 +1,27 @@
+@font-face  {
+    font-family: "font-light";
+    src: url("../font/Cygre-Light.ttf");
+    font-weight: lighter;
+    font-style: light;
+}
+
+@font-face  {
+    font-family: "font-thin";
+    src: url("../font/Cygre-Thin.ttf");
+    font-weight: lighter;
+    font-style: thin;
+}
+
+@font-face  {
+    font-family: "font-higlight";
+    src: url("../font/hillcrestdemo-arrem.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face  {
+    font-family: "font-bold";
+    src: url("../font/Cygre-Bold.ttf");
+    font-weight: bold;
+    font-style: bold;
+}
